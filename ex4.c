@@ -2,7 +2,8 @@
 #include<stdio.h>
 void main()
 {
-    int m_sal, y_sal=0;
+    int m_sal;
+    float y_sal=0.0 t=0.0;
     printf("Enter your monthly salary = ");
     scanf("%d",&m_sal);
 
@@ -11,7 +12,8 @@ void main()
     if (y_sal>500000)
     {
         printf("your yearly salary is greeter than 5 lakh");
-        y_sal=y_sal-(y_sal(5/100));
+        t=y_sal*(5/100)
+        y_sal=y_sal-t;
     }
     printf("your salary is %f",y_sal);
 }
